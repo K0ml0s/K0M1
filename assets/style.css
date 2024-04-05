@@ -1,0 +1,203 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.15rem;
+    color: rgb(185, 179, 170);
+    background-color: rgb(27, 29, 30);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.box {
+    box-shadow: rgba(0, 0, 0, 0.6) 3px 3px 4px;
+    background-color: rgb(32, 40, 51);
+    padding: 12px;
+}
+.content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    text-align: center;
+    height: 100%;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.content-box-body {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.heading {
+    text-align: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.heading-inner {
+    padding-top: 144px;
+    padding-bottom: 144px;
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+    .heading-inner {
+        padding-top: 15%;
+        padding-bottom: 15%;
+        position: relative;
+    }
+}
+.footer{
+    background-color: rgb(32, 40, 51);
+    text-align: center;
+    z-index: 2;
+}
+.footer-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media only screen and (max-width: 600px) {
+    .footer-inner {
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+}
+.image-block, img{
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+img {
+    border-style: none;
+}
+.green {
+    color: rgb(90, 255, 75);
+}
+.red {
+    color: rgb(211, 77, 66);
+}
+.bold {
+    font-weight: bold;
+}
+hr {
+    border: none;
+    border-top: #fff 2px solid;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+}
+p {
+    font-size: 16px;
+}
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+table, th, td {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copy-body {
+    display: inline-block;
+    background-color: rgb(182, 182, 182);
+    padding-left: 7px;
+    color: black;
+    font-size: 14px;
+}
+.copy-button, .copy-text {
+    display: inline-block;
+}
+button {
+    margin: 5px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 2px;
+    background: rgb(50, 54, 56);
+    color: white;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1) inset,
+      0 0 0 1px rgba(0, 0, 0, .7),
+      0 -1px 0 0 rgba(0, 0, 0, .7) inset,
+      0 1px 2px 1px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition: 50ms ease-out;
+    font-weight: 600;
+}
+button:hover, button:focus, button:focus-visible {
+    background: #353535;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset,
+      0 0 0 1px rgba(0, 0, 0, .7),
+      0 -1px 0 0 rgba(0, 0, 0, .7) inset,
+      0 1px 2px 1px rgba(0, 0, 0, .6);
+    border: none;
+    outline: none;
+} 
+button:active {
+    background: #181818;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .7) inset,
+      0 1px 0 0 rgba(255, 255, 255, .05),
+      0 1px 2px 1px rgba(0, 0, 0, .6) inset;
+}
+details > summary {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(50, 54, 56);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.6) 3px 3px 4px;
+}
+@media only screen and (min-width: 600px) {
+    details > summary {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+details[open] {
+    background-color: rgb(50, 54, 56);
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+details[open] > summary {
+    box-shadow: none;
+}
