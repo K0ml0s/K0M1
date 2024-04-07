@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 .box {
-    box-shadow: rgba(0, 0, 0, 0.6) 3px 3px 4px;
+    box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 4px;
     background-color: rgb(32, 40, 51);
     padding: 12px;
 }
@@ -44,28 +44,8 @@ body {
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
-.heading {
-    text-align: center;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-.heading-inner {
-    padding-top: 144px;
-    padding-bottom: 144px;
-    position: relative;
-}
-@media only screen and (max-width: 600px) {
-    .heading-inner {
-        padding-top: 15%;
-        padding-bottom: 15%;
-        position: relative;
-    }
-}
 .footer{
-    background-color: rgb(32, 40, 51);
+    background-color: #0C0C0C;
     text-align: center;
     z-index: 2;
 }

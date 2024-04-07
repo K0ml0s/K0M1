@@ -1,51 +1,16 @@
-#home-top {
-    background-size: cover;
-    text-align: center;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-#ssd-top {
-    background-size: cover;
-    text-align: center;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-#gpu-top {
-    background-size: cover;
-    text-align: center;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-#wininstall-top {
-    background-size: cover;
-    text-align: center;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-/*-------------------------*/
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(27, 29, 30, 0.6);
     color: white;
+    z-index: 2;
+    background-color: #0C0C0C;
+    padding: 12px;
 }
 .title {
-    font-size: 1.5rem;
-    margin: .5rem;
+    font-size: 1.8rem;
+    margin: .3rem;
     font-weight: 600;
 }
 .navbar-links {
@@ -78,6 +43,7 @@
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    margin: 12px;
 }
 .navbar-button .bar {
     height: 3px;
