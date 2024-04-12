@@ -6,7 +6,7 @@
     color: white;
     z-index: 2;
     background-color: #0C0C0C;
-    padding: 12px;
+    padding: 7px;
 }
 .title {
     font-size: 1.8rem;
@@ -43,7 +43,7 @@
     justify-content: space-between;
     width: 30px;
     height: 21px;
-    margin: 12px;
+    margin: 5px;
 }
 .navbar-button .bar {
     height: 3px;
